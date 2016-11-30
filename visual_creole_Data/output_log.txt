@@ -1,0 +1,76 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     2111 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\Vectrosity.dll (this message is harmless)
+Loading C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\Vectrosity.dll into Unity Child Domain
+Platform assembly: C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\libpxcclr.unity.dll (this message is harmless)
+Loading C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\libpxcclr.unity.dll into Unity Child Domain
+- Completed reload, in  0.123 seconds
+Platform assembly: C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\natoz\Documents\GitHub\visual_creole\visual_creole\visual_creole_Data\Managed\System.dll (this message is harmless)
+desktop: 2736x1824 60Hz; virtual: 2736x1824 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.888203 ms
+Sense Manager Object not found and was added automatically
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unable to initialize all modalities
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: mesh is null
+  at (wrapper managed-to-native) UnityEngine.Rendering.CommandBuffer:INTERNAL_CALL_DrawMesh (UnityEngine.Rendering.CommandBuffer,UnityEngine.Mesh,UnityEngine.Matrix4x4&,UnityEngine.Material,int,int,UnityEngine.MaterialPropertyBlock)
+  at UnityEngine.Rendering.CommandBuffer.DrawMesh (UnityEngine.Mesh mesh, Matrix4x4 matrix, UnityEngine.Material material, Int32 submeshIndex, Int32 shaderPass) [0x00000] in <filename unknown>:0 
+  at UTJ.MP4Recorder.InitializeContext () [0x00000] in <filename unknown>:0 
+  at UTJ.MP4Recorder.BeginRecording () [0x00000] in <filename unknown>:0 
+  at UTJ.MovieRecorderUI.set_record (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.Boolean].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[System.Boolean].Invoke (Boolean arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.Set (Boolean value, Boolean sendCallback) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.Set (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.set_isOn (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+MP4Recorder.EndRecording(): ./20161130_205928.mp4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2ee4 -> priority: 1 
